@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Form Builder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/lib/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+  
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Form Name</legend>
+
+<!-- Search input-->
+<div class="control-group">
+  <label class="control-label" for="searchinput">Search Input</label>
+  <div class="controls">
+    <input id="searchinput" name="searchinput" type="text" placeholder="placeholder" class="input-xlarge search-query" required="">
+    <p class="help-block">help</p>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">Text Input</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="input-xlarge">
+    <p class="help-block">help</p>
+  </div>
+</div>
+
+<!-- Button Drop Down -->
+<div class="control-group">
+  <label class="control-label" for="buttondropdown">Button Drop Down</label>
+  <div class="controls">
+    <div class="input-append">
+      <input id="buttondropdown" name="buttondropdown" class="input-xlarge" placeholder="placeholder" type="text" required="">
+      <div class="btn-group">
+        <button class="btn dropdown-toggle" data-toggle="dropdown">
+          POSSIBLE
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#">123</a></li>
+          <li><a href="#">456</a></li>
+          <li><a href="#">789</a></li>
+          <li><a href="#">abc</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="control-group">
+  <label class="control-label" for="checkboxes">Inline Checkboxes</label>
+  <div class="controls">
+    <label class="checkbox inline" for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1234">
+      1234
+    </label>
+    <label class="checkbox inline" for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="5678">
+      5678
+    </label>
+    <label class="checkbox inline" for="checkboxes-2">
+      <input type="checkbox" name="checkboxes" id="checkboxes-2" value="8901">
+      8901
+    </label>
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="control-group">
+  <label class="control-label" for="radios">Inline Radios</label>
+  <div class="controls">
+    <label class="radio inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1234" checked="checked">
+      1234
+    </label>
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="control-group">
+  <label class="control-label" for="selectbasic">Select Basic</label>
+  <div class="controls">
+    <select id="selectbasic" name="selectbasic" class="input-large">
+      <option>Option one</option>
+      <option>Option two</option>
+      <option>Option one</option>
+      <option>Option two</option>
+      <option>Option one</option>
+      <option>Option two</option>
+      <option>Option one</option>
+      <option>Option two</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="textinput">test</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="input-mini">
+    
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="control-group">
+  <label class="control-label" for="button1id"></label>
+  <div class="controls">
+    <button id="button1id" name="button1id" class="btn btn-primary">Good Button</button>
+    <button id="button2id" name="button2id" class="btn btn-primary">Scary Button</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+  </body>
+</html>

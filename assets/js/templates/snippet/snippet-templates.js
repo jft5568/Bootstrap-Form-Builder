@@ -8,6 +8,7 @@ define(function(require) {
   , filebutton               = require('text!templates/snippet/filebutton.html')
   , button                   = require('text!templates/snippet/button.html')
   , buttondouble             = require('text!templates/snippet/buttondouble.html')
+  , buttontriple             = require('text!templates/snippet/buttontriple.html')
   , buttondropdown           = require('text!templates/snippet/buttondropdown.html')
   , multiplecheckboxes       = require('text!templates/snippet/multiplecheckboxes.html')
   , multiplecheckboxesinline = require('text!templates/snippet/multiplecheckboxesinline.html')
@@ -32,6 +33,7 @@ define(function(require) {
     , filebutton               : filebutton
     , singlebutton             : button
     , doublebutton             : buttondouble
+	, triplebutton             : buttontriple
     , buttondropdown           : buttondropdown
     , multiplecheckboxes       : multiplecheckboxes
     , multiplecheckboxesinline : multiplecheckboxesinline
