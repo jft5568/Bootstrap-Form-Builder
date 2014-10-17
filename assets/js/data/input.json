@@ -577,7 +577,7 @@
     }
   },
   {
-    "title": "Databse Input",
+    "title": "Database Input",
     "fields": {
       "id": {
         "label": "ID / Name",
